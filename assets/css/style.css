@@ -67,3 +67,49 @@ body{
     color: white;
     margin-top: 10px;
 }
+.secondbody{
+    height: 200vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(236, 228, 228);
+    margin: 100px;
+
+}
+.secondbody .para1{
+    font-size: 1.6rem;
+    text-align: center;
+}
+.secondbody .firstchild{
+    display: flex;
+    height: 400px;
+    width: 946px;
+    background-color: whitesmoke;
+    margin: 1rem;
+    border-radius: 8px;
+}
+.secondbody .firstchild .firstchildfirstson{
+    width: 60%;
+    padding: 3rem 6rem;
+}
+
+.secondbody .firstchild .firstchildsecondson{
+    width: 40%;
+}
+.firstchildfirstson h3{
+    font-size: 2rem;
+    word-spacing: 8px;
+}
+.firstchildfirstson p{
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+.firstchildfirstson button{
+    font-size: 1.7rem;
+    padding: 13px 1rem;
+}
+.firstchildsecondchild{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
